@@ -1,5 +1,5 @@
 Summary:	Database administration tool for Firebird DBMS
-Summary(pl.UTF-8):   Narzędzie do administrowania bazy danych dla Firebirda
+Summary(pl.UTF-8):	Narzędzie do administrowania bazy danych dla Firebirda
 Name:		flamerobin
 Version:	0.7.6
 Release:	1
