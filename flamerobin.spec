@@ -1,5 +1,5 @@
 Summary:	Database administration tool for Firebird DBMS
-Summary(pl):	Narzêdzie do administrowania bazy danych dla Firebirda
+Summary(pl.UTF-8):   NarzÄ™dzie do administrowania bazy danych dla Firebirda
 Name:		flamerobin
 Version:	0.7.6
 Release:	1
@@ -22,12 +22,12 @@ designed as a tool that is:
 - cross-platform (Linux, Windows, MacOS X, FreeBSD, Solaris),
 - dependent only on other Open Source software.
 
-%description -l pl
-FlameRobin to narzêdzie do administrowania bazami danych dla systemu
-baz danych (DBMS) Firebird. Zosta³o zaprojektowane jako narzêdzie:
-- lekkie (ma³y narzut, szybkie wykonywanie)
+%description -l pl.UTF-8
+FlameRobin to narzÄ™dzie do administrowania bazami danych dla systemu
+baz danych (DBMS) Firebird. ZostaÅ‚o zaprojektowane jako narzÄ™dzie:
+- lekkie (maÅ‚y narzut, szybkie wykonywanie)
 - wieloplatformowe (Linux, Windows, MacOS X, FireBSD, Solaris)
-- zale¿ne tylko od innego oprogramowania Open Source
+- zaleÅ¼ne tylko od innego oprogramowania Open Source
 
 %prep
 %setup -q -n %{name}-%{version}-src
