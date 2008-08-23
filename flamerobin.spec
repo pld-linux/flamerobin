@@ -1,15 +1,15 @@
 Summary:	Database administration tool for Firebird DBMS
 Summary(pl.UTF-8):	Narzędzie do administrowania bazy danych dla Firebirda
 Name:		flamerobin
-Version:	0.7.6
-Release:	1
+Version:	0.8.6
+Release:	0.1
 License:	BSD-like
 Group:		Applications/Databases
 Source0:	http://dl.sourceforge.net/flamerobin/%{name}-%{version}-src.tar.gz
-# Source0-md5:	8ef6c222b162a0e2b24ee8b54380491c
+# Source0-md5:	b3c38dbe013f0196b3de31395bb7405b
 URL:		http://flamerobin.sourceforge.net/
-BuildRequires:	Firebird-devel
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	bakefile
 BuildRequires:	ibpp-devel
 BuildRequires:	wxGTK2-devel >= 2.6.0
