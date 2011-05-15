@@ -1,18 +1,15 @@
 Summary:	Database administration tool for Firebird DBMS
 Summary(pl.UTF-8):	Narzędzie do administrowania bazy danych dla Firebirda
 Name:		flamerobin
-Version:	0.9.0
-Release:	0.1
+Version:	0.9.2
+Release:	1
 License:	BSD-like
 Group:		Applications/Databases
 Source0:	http://dl.sourceforge.net/flamerobin/%{name}-%{version}-src.tar.gz
-# Source0-md5:	d1190ed72598baf8ee21c6a18522663c
+# Source0-md5:	bb25fb767c87f135dc4a70d3a7344f06
 URL:		http://flamerobin.sourceforge.net/
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	bakefile
-BuildRequires:	ibpp-devel
-BuildRequires:	wxGTK2-devel >= 2.6.0
+BuildRequires:	Firebird-devel
+BuildRequires:	wxGTK2-unicode-devel >= 2.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -33,11 +30,8 @@ baz danych (DBMS) Firebird. Zostało zaprojektowane jako narzędzie:
 %setup -q -n %{name}-%{version}-src
 
 %build
-bakefile_gen
-%{__aclocal}
-%{__autoconf}
 %configure \
-	WX_CONFIG_NAME=/usr/bin/wx-gtk2-ansi-config
+	WX_CONFIG_NAME=/usr/bin/wx-gtk2-unicode-config
 %{__make}
 
 %install
